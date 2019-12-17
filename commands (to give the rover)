@@ -1,0 +1,14 @@
+capture photo (with servo position)
+      hardware:servo, camera, 
+      system:network connection,camera operating stuff
+      api:take_photo(angle)
+go forwards
+      hardware:motors, motor controller, sensey thingy for proximity
+      system:network connection code to make motors go
+      api:move_motors(distance)
+stop
+      hardware:motors
+      
+go backwards
+turn left (degrees)
+turn right (degrees)
