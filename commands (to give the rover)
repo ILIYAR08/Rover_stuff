@@ -7,8 +7,19 @@ go forwards
       system:network connection code to make motors go
       api:move_motors(distance)
 stop
-      hardware:motors
+      hardware:motors,motor controller
+      system:network connection,code to make the motors stop
+      api:Stop_motors()
       
 go backwards
+      hardware:motors, motor controller, sensey thingy for proximity
+      system:network connection code to make motors go
+      api:move_motors(distance)
 turn left (degrees)
+      hardware:motors, motor controller, sensey thingy for proximity
+      system:network connection code to make motors go
+      api:turn_servos(degrees)
 turn right (degrees)
+      hardware:motors, motor controller, sensey thingy for proximity
+      system:network connection code to make motors go
+      api:turn_servos(degrees)
